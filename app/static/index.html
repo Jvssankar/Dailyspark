@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DailySpark: your quote for today</title>
+  <meta name="description" content="A fresh, personal motivational quote every day, matched to your mood, with beautiful cards you can download and share.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236c4df6'/%3E%3Cpath d='M32 10Q35 29 54 32Q35 35 32 54Q29 35 10 32Q29 29 32 10Z' fill='%23ffd23f'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <a class="brand" href="/" aria-label="DailySpark home">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="currentColor"/><path d="M32 10Q35 29 54 32Q35 35 32 54Q29 35 10 32Q29 29 32 10Z" fill="#ffd23f"/></svg>
+      <span>DailySpark</span>
+    </a>
+    <nav class="top-actions" aria-label="Tools">
+      <span class="streak" id="streak" title="Days in a row you've opened DailySpark">Day 1</span>
+      <button class="icon-btn" id="favoritesBtn" type="button" aria-label="Saved quotes">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.8 4.5 6.6 4.5c2.1 0 3.8 1.1 5.4 3 1.6-1.9 3.3-3 5.4-3 3.8 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21Z"/></svg>
+        <span class="count" id="favCount" hidden>0</span>
+      </button>
+      <button class="icon-btn" id="personalizeBtn" type="button" aria-label="Personalise">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
+      </button>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to dark mode">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main" class="stage">
+    <section class="intro" aria-labelledby="greeting">
+      <p class="date" id="dateLabel"></p>
+      <h1 id="greeting">Welcome</h1>
+      <p class="lede" id="lede">Your quote for today is picked for you, and changes with your mood.</p>
+    </section>
+
+    <section class="card-col" aria-label="Today's quote card">
+      <div class="card-wrap" id="cardWrap">
+        <canvas id="cardCanvas" width="1080" height="1350" role="img" aria-label="Quote card"></canvas>
+        <div class="loading" id="loading" role="status">Finding your quote…</div>
+      </div>
+      <p class="source" id="sourceLine"></p>
+      <p class="sr-only" id="quoteText" aria-live="polite"></p>
+    </section>
+
+    <aside class="panel">
+      <section class="block" aria-labelledby="moodTitle">
+        <h2 id="moodTitle">How are you feeling today?</h2>
+        <div class="chips" id="moods" role="group" aria-label="Mood"></div>
+        <p class="tip" id="tip" hidden></p>
+      </section>
+
+      <section class="block" aria-labelledby="styleTitle">
+        <h2 id="styleTitle">Pick a card style</h2>
+        <div class="templates" id="templates" role="group" aria-label="Card templates"></div>
+        <div class="seg" id="formats" role="group" aria-label="Card shape"></div>
+      </section>
+
+      <section class="block actions" aria-label="Card actions">
+        <button class="btn primary" id="downloadBtn" type="button">Download card</button>
+        <button class="btn" id="saveBtn" type="button" aria-pressed="false">Save quote</button>
+        <button class="btn" id="copyBtn" type="button">Copy text</button>
+        <button class="btn" id="shareBtn" type="button">Share</button>
+        <button class="btn" id="listenBtn" type="button">Listen</button>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="foot">
+    <p>Quotes come from <span id="poolInfo">our library</span>. Your mood and picks stay in this browser.</p>
+  </footer>
+
+  <dialog id="onboard" aria-labelledby="onboardTitle">
+    <div class="dialog-body">
+      <h2 id="onboardTitle">Make it yours</h2>
+      <p class="muted">Tell DailySpark a little so your daily quote fits you. Everyone gets a different one.</p>
+      <label class="field">
+        <span>What should we call you?</span>
+        <input id="nameInput" type="text" maxlength="24" autocomplete="given-name" placeholder="Your first name (optional)">
+      </label>
+      <fieldset class="field">
+        <legend>What do you want more of?</legend>
+        <div class="chips" id="interestChips"></div>
+      </fieldset>
+      <div class="dialog-actions">
+        <button class="btn" id="onboardSkip" type="button">Skip for now</button>
+        <button class="btn primary" id="onboardSave" type="button">Save and continue</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="favs" aria-labelledby="favsTitle">
+    <div class="dialog-body">
+      <h2 id="favsTitle">Saved quotes</h2>
+      <ul class="fav-list" id="favList"></ul>
+      <div class="dialog-actions">
+        <button class="btn primary" id="favsClose" type="button">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/static/js/cards.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

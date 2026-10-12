@@ -1,0 +1,674 @@
+[
+ {
+  "text": "The only thing we have to fear is fear itself.",
+  "author": "Franklin D. Roosevelt",
+  "categories": [
+   "courage",
+   "calm"
+  ]
+ },
+ {
+  "text": "Do what you can, with what you have, where you are.",
+  "author": "Theodore Roosevelt",
+  "categories": [
+   "motivation",
+   "resilience"
+  ]
+ },
+ {
+  "text": "It does not matter how slowly you go as long as you do not stop.",
+  "author": "Confucius",
+  "categories": [
+   "resilience",
+   "motivation"
+  ]
+ },
+ {
+  "text": "The journey of a thousand miles begins with a single step.",
+  "author": "Lao Tzu",
+  "categories": [
+   "motivation",
+   "courage"
+  ]
+ },
+ {
+  "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+  "author": "Will Durant",
+  "categories": [
+   "success",
+   "focus"
+  ]
+ },
+ {
+  "text": "Whether you think you can, or you think you can't, you're right.",
+  "author": "Henry Ford",
+  "categories": [
+   "success",
+   "courage"
+  ]
+ },
+ {
+  "text": "Well done is better than well said.",
+  "author": "Benjamin Franklin",
+  "categories": [
+   "motivation",
+   "success"
+  ]
+ },
+ {
+  "text": "Energy and persistence conquer all things.",
+  "author": "Benjamin Franklin",
+  "categories": [
+   "motivation",
+   "resilience"
+  ]
+ },
+ {
+  "text": "Nothing in life is to be feared, it is only to be understood.",
+  "author": "Marie Curie",
+  "categories": [
+   "courage",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "You must do the thing you think you cannot do.",
+  "author": "Eleanor Roosevelt",
+  "categories": [
+   "courage",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Courage is not the absence of fear, but the triumph over it.",
+  "author": "Nelson Mandela",
+  "categories": [
+   "courage",
+   "resilience"
+  ]
+ },
+ {
+  "text": "Our greatest glory is not in never falling, but in rising every time we fall.",
+  "author": "Oliver Goldsmith",
+  "categories": [
+   "resilience",
+   "courage"
+  ]
+ },
+ {
+  "text": "Fall seven times, stand up eight.",
+  "author": "Japanese Proverb",
+  "categories": [
+   "resilience",
+   "courage"
+  ]
+ },
+ {
+  "text": "Nothing great was ever achieved without enthusiasm.",
+  "author": "Ralph Waldo Emerson",
+  "categories": [
+   "success",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+  "author": "William Butler Yeats",
+  "categories": [
+   "motivation",
+   "courage"
+  ]
+ },
+ {
+  "text": "Man is not disturbed by things, but by the views he takes of them.",
+  "author": "Epictetus",
+  "categories": [
+   "calm",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Waste no more time arguing about what a good man should be. Be one.",
+  "author": "Marcus Aurelius",
+  "categories": [
+   "motivation",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "What stands in the way becomes the way.",
+  "author": "Marcus Aurelius",
+  "categories": [
+   "resilience",
+   "courage"
+  ]
+ },
+ {
+  "text": "Do every act of your life as though it were the very last act of your life.",
+  "author": "Marcus Aurelius",
+  "categories": [
+   "focus",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "We suffer more often in imagination than in reality.",
+  "author": "Seneca",
+  "categories": [
+   "calm",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Begin at once to live, and count each separate day as a separate life.",
+  "author": "Seneca",
+  "categories": [
+   "motivation",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Almost everything will work again if you unplug it for a few minutes, including you.",
+  "author": "Anne Lamott",
+  "categories": [
+   "calm",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Nature does not hurry, yet everything is accomplished.",
+  "author": "Lao Tzu",
+  "categories": [
+   "calm",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "You may encounter many defeats, but you must not be defeated.",
+  "author": "Maya Angelou",
+  "categories": [
+   "resilience",
+   "courage"
+  ]
+ },
+ {
+  "text": "Nothing will work unless you do.",
+  "author": "Maya Angelou",
+  "categories": [
+   "motivation",
+   "success"
+  ]
+ },
+ {
+  "text": "You can't use up creativity. The more you use, the more you have.",
+  "author": "Maya Angelou",
+  "categories": [
+   "positivity",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Nothing can dim the light that shines from within.",
+  "author": "Maya Angelou",
+  "categories": [
+   "positivity",
+   "resilience"
+  ]
+ },
+ {
+  "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+  "author": "Thomas Edison",
+  "categories": [
+   "success",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Imagination is more important than knowledge.",
+  "author": "Albert Einstein",
+  "categories": [
+   "wisdom",
+   "success"
+  ]
+ },
+ {
+  "text": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+  "author": "Albert Einstein",
+  "categories": [
+   "motivation",
+   "resilience"
+  ]
+ },
+ {
+  "text": "The only way to do great work is to love what you do.",
+  "author": "Steve Jobs",
+  "categories": [
+   "success",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Your time is limited, so don't waste it living someone else's life.",
+  "author": "Steve Jobs",
+  "categories": [
+   "wisdom",
+   "focus"
+  ]
+ },
+ {
+  "text": "Focusing is about saying no.",
+  "author": "Steve Jobs",
+  "categories": [
+   "focus",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Concentrate all your thoughts upon the work at hand. The sun's rays do not burn until brought to a focus.",
+  "author": "Alexander Graham Bell",
+  "categories": [
+   "focus",
+   "success"
+  ]
+ },
+ {
+  "text": "Lost time is never found again.",
+  "author": "Benjamin Franklin",
+  "categories": [
+   "focus",
+   "motivation"
+  ]
+ },
+ {
+  "text": "The best time to plant a tree was twenty years ago. The second best time is now.",
+  "author": "Chinese Proverb",
+  "categories": [
+   "motivation",
+   "positivity"
+  ]
+ },
+ {
+  "text": "A smooth sea never made a skilled sailor.",
+  "author": "Proverb",
+  "categories": [
+   "resilience",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Act as if what you do makes a difference. It does.",
+  "author": "William James",
+  "categories": [
+   "motivation",
+   "positivity"
+  ]
+ },
+ {
+  "text": "The greatest weapon against stress is our ability to choose one thought over another.",
+  "author": "William James",
+  "categories": [
+   "calm",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Dream big and dare to fail.",
+  "author": "Norman Vaughan",
+  "categories": [
+   "courage",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Courage is grace under pressure.",
+  "author": "Ernest Hemingway",
+  "categories": [
+   "courage",
+   "calm"
+  ]
+ },
+ {
+  "text": "Only those who dare to fail greatly can ever achieve greatly.",
+  "author": "Robert F. Kennedy",
+  "categories": [
+   "courage",
+   "success"
+  ]
+ },
+ {
+  "text": "Start where you are. Use what you have. Do what you can.",
+  "author": "Arthur Ashe",
+  "categories": [
+   "motivation",
+   "resilience"
+  ]
+ },
+ {
+  "text": "Success is the sum of small efforts, repeated day in and day out.",
+  "author": "Robert Collier",
+  "categories": [
+   "success",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Small deeds done are better than great deeds planned.",
+  "author": "Peter Marshall",
+  "categories": [
+   "motivation",
+   "focus"
+  ]
+ },
+ {
+  "text": "Don't watch the clock; do what it does. Keep going.",
+  "author": "Sam Levenson",
+  "categories": [
+   "motivation",
+   "focus"
+  ]
+ },
+ {
+  "text": "It is during our darkest moments that we must focus to see the light.",
+  "author": "Aristotle Onassis",
+  "categories": [
+   "resilience",
+   "positivity"
+  ]
+ },
+ {
+  "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+  "author": "Franklin D. Roosevelt",
+  "categories": [
+   "courage",
+   "motivation"
+  ]
+ },
+ {
+  "text": "The best way out is always through.",
+  "author": "Robert Frost",
+  "categories": [
+   "resilience",
+   "courage"
+  ]
+ },
+ {
+  "text": "In three words I can sum up everything I've learned about life: it goes on.",
+  "author": "Robert Frost",
+  "categories": [
+   "resilience",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+  "author": "Johann Wolfgang von Goethe",
+  "categories": [
+   "motivation",
+   "success"
+  ]
+ },
+ {
+  "text": "Be kind, for everyone you meet is fighting a hard battle.",
+  "author": "Ian Maclaren",
+  "categories": [
+   "positivity",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "No act of kindness, no matter how small, is ever wasted.",
+  "author": "Aesop",
+  "categories": [
+   "positivity",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Setting goals is the first step in turning the invisible into the visible.",
+  "author": "Tony Robbins",
+  "categories": [
+   "success",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Perseverance is not a long race; it is many short races one after the other.",
+  "author": "Walter Elliot",
+  "categories": [
+   "resilience",
+   "focus"
+  ]
+ },
+ {
+  "text": "A river cuts through rock, not because of its power, but because of its persistence.",
+  "author": "Jim Watkins",
+  "categories": [
+   "resilience",
+   "focus"
+  ]
+ },
+ {
+  "text": "Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure.",
+  "author": "Oprah Winfrey",
+  "categories": [
+   "calm",
+   "focus"
+  ]
+ },
+ {
+  "text": "Within you there is a stillness and a sanctuary to which you can retreat at any time.",
+  "author": "Hermann Hesse",
+  "categories": [
+   "calm",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Calmness is the cradle of power.",
+  "author": "Josiah Gilbert Holland",
+  "categories": [
+   "calm",
+   "success"
+  ]
+ },
+ {
+  "text": "Quiet the mind, and the soul will speak.",
+  "author": "Ma Jaya Sati Bhagavati",
+  "categories": [
+   "calm",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
+  "author": "Thich Nhat Hanh",
+  "categories": [
+   "calm",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.",
+  "author": "Thich Nhat Hanh",
+  "categories": [
+   "calm",
+   "resilience"
+  ]
+ },
+ {
+  "text": "What you do today can improve all your tomorrows.",
+  "author": "Ralph Marston",
+  "categories": [
+   "motivation",
+   "success"
+  ]
+ },
+ {
+  "text": "Every day may not be good, but there is something good in every day.",
+  "author": "Alice Morse Earle",
+  "categories": [
+   "positivity",
+   "resilience"
+  ]
+ },
+ {
+  "text": "The sun himself is weak when he first rises, and gathers strength and courage as the day gets on.",
+  "author": "Charles Dickens",
+  "categories": [
+   "resilience",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Rest is not idleness.",
+  "author": "John Lubbock",
+  "categories": [
+   "calm",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Take rest; a field that has rested gives a bountiful crop.",
+  "author": "Ovid",
+  "categories": [
+   "calm",
+   "resilience"
+  ]
+ },
+ {
+  "text": "Hope is being able to see that there is light despite all of the darkness.",
+  "author": "Desmond Tutu",
+  "categories": [
+   "positivity",
+   "resilience"
+  ]
+ },
+ {
+  "text": "Optimism is the faith that leads to achievement.",
+  "author": "Helen Keller",
+  "categories": [
+   "positivity",
+   "success"
+  ]
+ },
+ {
+  "text": "Although the world is full of suffering, it is full also of the overcoming of it.",
+  "author": "Helen Keller",
+  "categories": [
+   "resilience",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Keep your face to the sunshine and you cannot see a shadow.",
+  "author": "Helen Keller",
+  "categories": [
+   "positivity",
+   "calm"
+  ]
+ },
+ {
+  "text": "Great things are done by a series of small things brought together.",
+  "author": "Vincent van Gogh",
+  "categories": [
+   "motivation",
+   "success"
+  ]
+ },
+ {
+  "text": "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
+  "author": "Stephen Covey",
+  "categories": [
+   "focus",
+   "success"
+  ]
+ },
+ {
+  "text": "Concentration is the secret of strength.",
+  "author": "Ralph Waldo Emerson",
+  "categories": [
+   "focus",
+   "success"
+  ]
+ },
+ {
+  "text": "Do the hard jobs first. The easy jobs will take care of themselves.",
+  "author": "Dale Carnegie",
+  "categories": [
+   "focus",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Champions keep playing until they get it right.",
+  "author": "Billie Jean King",
+  "categories": [
+   "resilience",
+   "success"
+  ]
+ },
+ {
+  "text": "Everything you've ever wanted is on the other side of fear.",
+  "author": "George Addair",
+  "categories": [
+   "courage",
+   "motivation"
+  ]
+ },
+ {
+  "text": "Don't count the days, make the days count.",
+  "author": "Muhammad Ali",
+  "categories": [
+   "motivation",
+   "positivity"
+  ]
+ },
+ {
+  "text": "Believe in yourself! Have faith in your abilities!",
+  "author": "Norman Vincent Peale",
+  "categories": [
+   "courage",
+   "success"
+  ]
+ },
+ {
+  "text": "The unexamined life is not worth living.",
+  "author": "Socrates",
+  "categories": [
+   "wisdom",
+   "focus"
+  ]
+ },
+ {
+  "text": "Happiness depends upon ourselves.",
+  "author": "Aristotle",
+  "categories": [
+   "positivity",
+   "wisdom"
+  ]
+ },
+ {
+  "text": "Keep your eyes on the stars, and your feet on the ground.",
+  "author": "Theodore Roosevelt",
+  "categories": [
+   "success",
+   "focus"
+  ]
+ },
+ {
+  "text": "Perseverance is failing nineteen times and succeeding the twentieth.",
+  "author": "Julie Andrews",
+  "categories": [
+   "resilience",
+   "success"
+  ]
+ },
+ {
+  "text": "It's not that I'm so smart, it's just that I stay with problems longer.",
+  "author": "Albert Einstein",
+  "categories": [
+   "focus",
+   "resilience"
+  ]
+ }
+]
